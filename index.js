@@ -5,7 +5,8 @@
 
 // create in react
 // div -> div -> h1
-
+import React from "react";
+import ReactDOM from "react-dom/client";
 let heading = React.createElement(
   "h2",
   { id: "heading", style: { color: "red" } },
